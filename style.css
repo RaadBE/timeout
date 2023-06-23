@@ -1,0 +1,47 @@
+body {
+	width: 80%;
+	margin: 0 auto;
+}
+p{
+	display: inline;
+}
+.main {
+	border: 1px solid blue;
+    height: 676px;
+    margin: 0 auto;
+    margin-top: 20%;
+    width: 682px;
+}
+
+.conta{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: stretch;
+    align-self: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 44px;
+}
+.cir{
+	    border: 1px solid blue;
+    padding: 50px;
+    width: 40px;
+    height: 39px;
+    /* align-items: center; */
+    border-radius: 50%;
+    align-self: center;
+}
+
+.circle12{
+	padding-bottom: 40px;
+}
+
+.imred{
+	background-color: red;
+}
+
+.imwhite{
+	background-color: white;
+}
